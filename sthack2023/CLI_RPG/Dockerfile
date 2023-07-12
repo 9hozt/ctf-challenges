@@ -1,0 +1,19 @@
+from ubuntu
+
+RUN apt update && apt upgrade -y
+RUN apt install -y gcc git  make 
+RUN git clone https://github.com/johnsonjh/ynetd.git /ynetd
+RUN cd /ynetd && make
+
+RUN useradd -m ctf
+
+WORKDIR /home/ctf
+
+COPY ./bin/ /home/ctf/
+RUN chown -R ctf:ctf /home/ctf && \
+    chmod -R 500 /home/ctf
+
+EXPOSE 1337
+
+USER ctf
+CMD ["/ynetd/./ynetd","-p","1337","/home/ctf/chall"]

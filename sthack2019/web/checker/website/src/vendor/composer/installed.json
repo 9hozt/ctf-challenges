@@ -1,0 +1,104 @@
+[
+    {
+        "name": "robbiep/zbar-qrdecoder",
+        "version": "2.0.2",
+        "version_normalized": "2.0.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/robbiepaul/zbar-qrdecoder.git",
+            "reference": "ca652762b28745e8e470ee43f006a2691403c4e8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/robbiepaul/zbar-qrdecoder/zipball/ca652762b28745e8e470ee43f006a2691403c4e8",
+            "reference": "ca652762b28745e8e470ee43f006a2691403c4e8",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.0",
+            "symfony/process": "^3.0"
+        },
+        "require-dev": {
+            "mockery/mockery": "0.9.*@dev",
+            "phpunit/phpunit": "4.3.5"
+        },
+        "time": "2016-03-13T16:05:08+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "RobbieP\\ZbarQrdecoder\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Robbie Paul",
+                "email": "robbiepaul@me.com"
+            }
+        ],
+        "description": "A PHP wrapper for Zbar. Decodes images/photos containing QR codes.",
+        "keywords": [
+            "decode",
+            "laravel",
+            "php",
+            "qr",
+            "qrcode",
+            "zbar"
+        ]
+    },
+    {
+        "name": "symfony/process",
+        "version": "v3.4.24",
+        "version_normalized": "3.4.24.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/process.git",
+            "reference": "009f8dda80930e89e8344a4e310b08f9ff07dd2e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/process/zipball/009f8dda80930e89e8344a4e310b08f9ff07dd2e",
+            "reference": "009f8dda80930e89e8344a4e310b08f9ff07dd2e",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.5.9|>=7.0.8"
+        },
+        "time": "2019-01-16T13:27:11+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\Process\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony Process Component",
+        "homepage": "https://symfony.com"
+    }
+]

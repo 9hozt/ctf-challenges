@@ -1,0 +1,10 @@
+version: "3.2"
+services:
+  apache:
+    build: .
+#    volumes:
+#      - ./:/var/www/html
+    ports:
+      - "127.0.0.1:80:80"
+    extra_hosts:
+      - "dev.img.local:127.0.0.1"
