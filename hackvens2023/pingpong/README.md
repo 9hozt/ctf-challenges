@@ -12,11 +12,11 @@ Then we observe that the last character of the input is get if the TTL environne
 
 The switch case works with current TTL and input. In fact both binaries act this way:
 
- 1 - Get TTL
- 2 - Get argv[1]
- 3 - Decrement TTL
- 4 - Do magic with input and TTL
- 5 - Call other binary with new TTL and new input
+ 1. Get TTL
+ 2. Get argv[1]
+ 3. Decrement TTL
+ 4. Do magic with input and TTL
+ 5. Call other binary with new TTL and new input
 
  Theses actions are performed with a base TTL of 25.
 
