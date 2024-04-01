@@ -1,0 +1,1 @@
+docker run -d --rm -p 1340:1340 heap

@@ -1,0 +1,1 @@
+docker run --rm -r -p 1337:1337 beaufort
